@@ -1,0 +1,385 @@
+.select-template-outer>ul>li>div>ul {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.select-template-outer>ul>li>div>ul>li {
+    width: 33%;
+}
+
+.select-template-outer>ul>li>div>ul>li>button>img {
+    width: 100%;
+}
+
+.elementButton {
+    margin-bottom: 10px;
+}
+
+.elementButton>.Polaris-Button {
+    display: flex;
+    width: 100%;
+    background-color: #dfdfdf;
+    border: 1px solid #c4c4c4;
+}
+
+.elementButton>.Polaris-Button:hover {
+    background-color: #c5c4c4;
+    border: 1px solid #b3b1b1;
+}
+
+.lineBreak1 {
+    display: inline-block;
+}
+
+.lineBreak2 {
+    display: block;
+}
+
+.datePicker {
+    padding: calc((2.25rem - var(--p-font-line-height-3) - var(--p-space-05))/2) var(--p-space-3);
+    font-size: var(--p-font-size-200);
+    display: block;
+    flex: 1 1;
+    width: 100%;
+    min-width: 0;
+    min-height: 2.25rem;
+    margin: 0;
+    background: none;
+    border: 1px solid rgba(171, 177, 186, 1) !important;
+    border-radius: 3px;
+}
+
+.datePicker:focus {
+    outline: rgba(62, 125, 213, 1) solid 2px;
+}
+
+.react-datepicker-popper {
+    z-index: 99;
+}
+
+.css-13cymwt-control {
+    border: 1px solid rgba(171, 177, 186, 1) !important
+}
+
+.react-datepicker-wrapper {
+    width: 100%;
+}
+
+.buttonClass {
+    display: flex;
+    width: 100%;
+    margin-bottom: 10px;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.elementsList {
+    padding-top: 10px;
+}
+
+.elementBox {
+    background-color: #f3f3f3;
+    padding: 10px;
+    border-radius: 3px;
+    margin-top: 10px;
+    border: 1px solid #ddd;
+}
+
+.elementTitle {
+    padding: 5px 1px;
+    text-transform: uppercase;
+    font-weight: 600;
+    border-bottom: 1px solid #d2d2d2;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.elementContent>div {
+    margin-bottom: 5px;
+
+}
+
+.elementEdit {
+    padding: 10px;
+    color: #d52424;
+}
+
+.required {
+    color: #e42d2d;
+}
+
+.buttonClass>Button {
+    background-color: #888888;
+    color: #ffffff;
+    border: none;
+}
+
+.buttonClass>Button:hover {
+    background-color: #636262;
+    color: #ffffff;
+    border: none;
+}
+
+.datePickerClass {
+    display: flex;
+    gap: 1px
+}
+
+.css-1nmdiq5-menu {
+    z-index: 9999 !important;
+}
+
+.checkBoxContainer {
+    width: 100%;
+}
+
+.checkboxClass {
+    display: flex;
+    gap: 5px;
+    justify-content: space-between;
+    border: 1px solid rgba(171, 177, 186, 1) !important;
+    border-radius: 3px;
+    margin-top: 5px;
+    padding: 10px;
+}
+
+.checkboxClass>div>.lineBreak1>.Polaris-Choice>.Polaris-Choice__Label {
+    padding-right: 10px;
+}
+
+.checkBoxItems {
+    width: 70%;
+}
+
+.radioButtonContainer {
+    width: 100%;
+}
+
+.radioButtonClass {
+    display: flex;
+    gap: 5px;
+    justify-content: space-between;
+    margin-top: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid rgba(171, 177, 186, 1) !important;
+    border-radius: 3px;
+}
+
+.radioButtonClass>div>.lineBreak1>.Polaris-Choice>.Polaris-Choice__Label {
+    padding-right: 10px;
+}
+
+.radioButtonItems {
+    width: 70%;
+}
+
+.fileUploadContainer {
+    width: 70%;
+}
+
+.fileUploadClass {
+    display: flex;
+    gap: 5px;
+    justify-content: space-between;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    width: 87% !important;
+}
+
+.fileUploadEdit {
+    padding-top: 5px;
+}
+
+.dropdownClass {
+    display: flex;
+    gap: 1px;
+    justify-content: space-between;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+.width100 {
+    width: 100%;
+}
+
+.dropdownEdit {
+    padding-top: 5px;
+    margin-top: 15px;
+}
+
+.marginBottom5 {
+    margin-bottom: 5px;
+    width: 100%;
+}
+
+.marginTop5 {
+    margin-top: 5px;
+    width: 100%;
+}
+
+.editIconClass>span>.Polaris-Button--iconOnly {
+    background-color: rgba(241, 242, 244, 1);
+}
+
+.editIconClass>span>.Polaris-Button--iconOnly:hover {
+    background-color: #c5c4c4 !important;
+}
+
+.editIconClass>span:last-child {
+    margin-left: 3px;
+}
+
+.closeElement>span>.Polaris-Button {
+    padding: 0px;
+    min-width: 20px;
+    min-height: 20px;
+}
+
+.draggable {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: flex-start;
+}
+
+.draggableImage {
+    width: 40px;
+    height: 40px;
+    margin-top: 25px;
+}
+
+.draggableImage img {
+    border: 1px solid rgba(171, 177, 186, 1) !important;
+    padding: 6px 6px;
+    border-radius: 3px;
+}
+
+.droppableUl {
+    padding: 0px;
+}
+
+.modalHeader {
+    font-weight: 600;
+    font-size: 15px;
+    margin-bottom: 7px;
+}
+
+.modalContent {
+    margin: 0;
+    font-size: 1em;
+    font-weight: var(--p-font-weight-regular);
+    padding-bottom: 10px;
+}
+
+.modalButton>button {
+    margin: 5px 8px 0px 0px;
+    padding: 7px 12px;
+    min-height: 20px;
+    line-height: 14px;
+    background-color: #e8e8e8;
+}
+
+.modalButton>button>span {
+    text-transform: uppercase;
+    font-size: 12px;
+}
+
+.react-responsive-modal-closeButton {
+    top: 2px !important;
+    right: 10px !important;
+}
+
+.react-responsive-modal-closeButton svg {
+    width: 15px;
+}
+
+.publish {
+    padding: 20px;
+    background-color: #f2f2f2;
+    border: 1px solid #dcdcdc;
+    border-radius: 5px;
+}
+
+.publish>.Polaris-Grid {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.publish>.Polaris-Grid>button {
+    display: flex;
+    background-color: #dfdfdf;
+    border: 1px solid #c4c4c4;
+}
+
+.publish>.Polaris-Grid>button:hover {
+    background-color: #c5c4c4;
+    border: 1px solid #b3b1b1;
+}
+
+.publish>.Polaris-Text--root {
+    background-color: white;
+    padding: 10px;
+    text-align: justify;
+    border-radius: 5px;
+}
+
+.manageActions {
+    display: flex;
+}
+
+.manageActions>.Polaris-Button {
+    display: flex;
+    background-color: #dfdfdf;
+    border: 1px solid #c4c4c4;
+    margin-right: 20px;
+    padding: 5px 10px !important;
+    min-height: 7px;
+}
+
+.manageActions>.Polaris-Button:hover {
+    background-color: #c5c4c4;
+    border: 1px solid #b3b1b1;
+}
+
+
+
+.Polaris-OptionList-Option__SingleSelectOption.Polaris-OptionList-Option--select{background-color:#c3bfbf !important;}
+
+.Polaris-OptionList-Option__SingleSelectOption.Polaris-OptionList-Option--select::before{display:none !important;}
+
+.Polaris-DataTable__Table> thead> tr> th{
+    font-weight: bold;
+}
+
+
+.iconError{
+    display: flex;
+}
+
+.errorStyle{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.errorStyle> span{
+    color:rgba(197, 40, 12, 1);
+
+}
+
+.noRecordsFound{
+    text-align: center;
+
+}
+@media only screen and (max-width: 767px) {
+
+    .elementsList>.Polaris-Grid {
+
+        display: flex !important;
+        flex-direction: column;
+    }
+
+}

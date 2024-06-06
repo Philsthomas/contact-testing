@@ -1,0 +1,17 @@
+{% assign html_code = block.settings.cfm_liquid_code %}
+<div>
+  {{ html_code | raw }}
+</div>
+
+{% schema %}
+{
+  "name": "Contact Form Snippet",
+  "target": "section",
+  "settings": [
+
+    { "type": "liquid", "id": "cfm_liquid_code", "label": "Form liquid code"}
+
+  ]
+}
+{% endschema %}
+

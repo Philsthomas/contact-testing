@@ -1,0 +1,135 @@
+{
+
+
+  "manageForm":{
+    "delete":"Delete",
+    "manage_forms":"Manage Forms",
+    "id":"Id",
+    "name":"Name",
+    "template_name":"Template Name",
+    "created_at":"Created At",
+    "updated_at":"Updated At",
+    "actions": "Actions",
+    "edit": "Edit",
+    "form": "Form",
+    "noRecordsFound": "No records found"
+  },
+
+  "addForm":{
+    "formName": "Form Name",
+    "name_is_required":"Name is required",
+    "add_new_form":"Enter form name",  
+    "template_id_is_required" :"Select a template",
+    "add_a_new_form":"Add New Form",
+    "select_form":"Please Select A Form Template",
+    "submit":"Submit",
+    "templates_not_available":"No templates are available to perform this operation"
+  },
+  "HomePage": {
+    "heading": "Nice work on building a Shopify app 🎉",
+    "learnMore": "Learn more about building out your app in <ShopifyTutorialLink>this Shopify tutorial</ShopifyTutorialLink> 📚",
+    "startPopulatingYourApp": "Ready to go? Start populating your app with some sample products to view and test in your store.",
+    "title": "App name",
+    "trophyAltText": "Nice work on building a Shopify app",
+    "yourAppIsReadyToExplore": "Your app is ready to explore! It contains everything you need to get started including the <PolarisLink>Polaris design system</PolarisLink>, <AdminApiLink>Shopify Admin API</AdminApiLink>, and <AppBridgeLink>App Bridge</AppBridgeLink> UI library and components."
+  },
+  "NavigationMenu": {
+    "manageForms":"Manage Forms",
+    "addForm" : "Add Form"
+  },
+  "NotFound": {
+    "description": "Check the URL and try again, or use the search bar to find what you need.",
+    "heading": "There is no page at this address"
+  }, 
+  "FormEdit": {
+    "body": "Body",
+    "heading": "Heading",
+    "primaryAction": "Primary action",
+    "secondaryAction": "Secondary action",
+    "title": "Form name : {{formName}}",
+    "elements": "Elements",
+    "settings": "Settings",
+    "publish": "Publish"
+  },
+  "Settings": {
+    "formSubmission": "Form Submission",
+    "messages": "Messages",
+    "submitButtonText": "Submit Button Text :",
+    "submitButtonTextRequired": "Submit button text is required",
+    "submitButtonClass": "Submit Button Class :",
+    "submitButtonClassRequired": "Submit button class is required",
+    "afterFormSubmission": "After form submission",
+    "afterFormSubmissionOption1": "Redisplay empty form and show confirmation message",
+    "afterFormSubmissionOption2": "Redirect to page url",
+    "urlTip": "Tip: The url must include 'https://' or 'http://'.",
+    "urlRequired":"Redirect URL is required",
+    "invalidUrl":"Invalid URL",
+    "urlLabel": "After submission user will be redirected to url filled out here",
+    "confirmationMessage": "Confirmation Message :",
+    "confirmationMessageRequired": "Confirmation message is required",
+    "defaultMessage": "Your message has been sent. Thank you for contacting us!"
+  },
+  "Elements": {
+    "formElements": "Form Elements",
+    "formPreview": "Form Preview",
+    "addElement": "Add Element",
+    "editElement": "Edit Element",
+    "text": "Text",
+    "checkbox": "Checkboxes",
+    "dropdown": "Dropdown",
+    "textArea": "Text Area",
+    "date": "Date", 
+    "radioButtons": "Radio Buttons",
+    "email": "Email",
+    "fileUpload": "File upload",
+    "elementEditNote": "Please click an element inside the preview to edit.",
+    "elementName": "Form Element Name",
+    "elementNameRequired": "Element name is required",
+    "elementNameAlphanumeric": "The elementName must start with an alphabet and must be alphanumeric",
+    "elementDisplayName": "Label",
+    "elementDisplayNameRequired": "Label is required",
+    "options": "Options",
+    "optionsRequired": "Options required",
+    "optionsNote": "Please use comma(,) to separate option values.",
+    "example1": "Example 1 : a,b,c,d",
+    "example2": "Example 2 : a=>1,b=>2,c=>3,d=>4",
+    "multipleSelect": "Allow multi-select",
+    "required": "Required field?",
+    "className": "Style Class Name (optional)",
+    "maxLength": "Maxlength(optional)",
+    "maxLengthInteger": "Maximum length must be an integer.",
+    "defaultValue": "Default value (optional)",
+    "defaultValueCheckboxValue": "Default Check Box value(s) (optional)",
+    "singleLineView": "Display each option in new line",
+    "defaultValueRadioButtonValue": "Default Radio button value (optional)",
+    "defaultValueDropdownValue": "Default Dropdown value (optional)",
+    "rowLength": "Rows (optional)",
+    "fileType": "Acceptable file types (optional)",
+    "fileTypeNote":"Please use comma(,) to separate file types. Do not use .(dot) in file types.",
+    "fileTypeExample":"Example : jpeg,jpg,png",
+    "contactUs":"Contact Us",
+    "selectAnOption": "Select an option",
+    "closeElement":"Close element",
+    "deleteElement":"Delete element",
+    "elementDeleteConfirmaion": "{{dataFrom}} Delete Confirmation",
+    "elementDeletionMessage": "Do you want to delete this {{name}}.",
+    "no": "No",
+    "yes": "Yes",
+    "element": "Element"
+  },
+  "Publish":{
+    "scriptCode": "Code Snippet",
+    "scriptCodeNote": "(Note: You may copy the snippet to required template)",
+    "copy": "Copy",
+    "copied": "Copied",
+    "copyFailed": "Failed to copy: {{error}}"
+  },
+  "Common": {
+    "update": "Update",
+    "add": "Add"
+  },
+  "Exception":{
+    "unableToProccessRequest": "We are unable to proccess your request:{{error}}",
+    "fieldErrors":"Please solve errors in fields"
+  }
+}
